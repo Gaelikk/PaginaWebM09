@@ -10,18 +10,19 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="css/index.css">
 <body>
-<div class="w3-top ">
+<div class="w3-top font-italic">
     <div class="w3-bar w3-white w3-card border border-dark d-flex">
         <a id="it" class="w3-bar-item w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)"
            onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
         <div class="w3-bar d-flex justify-content-center">
             <a href="index.html" class="w3-bar-item w3-button w3-padding-large mb-0 h1">BATTLEWORLD</a>
-            <a href="contacte.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACTE</a>
-            <a href="quisom.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">QUI SOM?</a>
-            <a href="detall.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DETALL</a>
+            <a href="contacte.html" class="w3-bar-item w3-button w3-padding-large h4">CONTACTE</a>
+            <a href="quisom.html" class="w3-bar-item w3-button w3-padding-large h4">QUI SOM?</a>
+            <a href="detall.html" class="w3-bar-item w3-button w3-padding-large h4">DETALL</a>
             <div class="w3-dropdown-hover w3-hide-small">
-                <button class="w3-padding-large w3-button" title="More">LLISTATS<i class="fa fa-caret-down"></i>
-                </button>
+                <a href="llistats.html" class="w3-padding-large w3-button h4" title="More">LLISTATS<i
+                        class="fa fa-caret-down"></i>
+                </a>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
                     <a href="xapes.html" class="w3-bar-item w3-button">Xapes</a>
                     <a href="medalles.html" class="w3-bar-item w3-button">Medalles</a>
@@ -36,15 +37,16 @@
     <a href="contacte.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACTE</a>
     <a href="quisom.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">QUI SOM?</a>
     <a href="detall.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DETALL</a>
-    <a href="xapes.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LLISTATS</a>
+    <a href="llistats.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LLISTATS</a>
 </div>
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px">
         <img src="img/logo.png" width="325" alt="">
         <hr style="color: black; background-color: black; width:100%;"/>
+        <a class="w3-bar-item w3-padding-large mb-0 h1">CONTACTE</a>
     </div>
 </div>
-<div class="container">
+<div style="margin-bottom: 10%" class="container">
     <div class="row">
         <div class="column">
             <img src="/img/contactimg.jpg" style="width:100%" alt="">
@@ -53,9 +55,12 @@
             <p>Afegeix la teva informació de contacte per a poder comunicar-nos els teus dubtes o quiexes sobre els
                 serveis que oferim al nostre lloc web.
                 No es toleraràn missatges d'spam, insults o altre tipus de comentari ofensiu cap a la nostra empresa,
-                altre institució o persona.
+                altre institució o persona.<br>
+                També pots contactar amb nosaltres mitjançant les nostres xarxes socials que pots trobar al peu de la
+                pàgina.
             </p>
         </div>
+
         <div class="column">
             <form action="/action_page.php">
                 <label for="nom">Nom</label>

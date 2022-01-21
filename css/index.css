@@ -1,59 +1,65 @@
 #it {
-  margin-top: 12px;
+    margin-top: 12px;
 }
-
 
 #not {
-  margin: 10px;
-}
-* {
-  box-sizing: border-box;
+    margin: 10px;
 }
 
-/* Style inputs */
+* {
+    box-sizing: border-box;
+}
+
 input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
 .container {
-  border-radius: 15px;
-  background-color: #f2f2f2;
-  padding: 10px;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 10px;
 }
 
 .column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 @media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+@font-face{
+    font-family: Lato, sans-serif;
+}
+
+.login{
+    margin-top: 100px;
 }

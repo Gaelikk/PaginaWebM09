@@ -10,18 +10,19 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="css/index.css">
 <body>
-<div class="w3-top ">
+<div class="w3-top font-italic">
     <div class="w3-bar w3-white w3-card border border-dark d-flex">
         <a id="it" class="w3-bar-item w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)"
            onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
         <div class="w3-bar d-flex justify-content-center">
             <a href="index.html" class="w3-bar-item w3-button w3-padding-large mb-0 h1">BATTLEWORLD</a>
-            <a href="contacte.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACTE</a>
-            <a href="quisom.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">QUI SOM?</a>
-            <a href="detall.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DETALL</a>
+            <a href="contacte.html" class="w3-bar-item w3-button w3-padding-large h4">CONTACTE</a>
+            <a href="quisom.html" class="w3-bar-item w3-button w3-padding-large h4">QUI SOM?</a>
+            <a href="detall.html" class="w3-bar-item w3-button w3-padding-large h4">DETALL</a>
             <div class="w3-dropdown-hover w3-hide-small">
-                <button class="w3-padding-large w3-button" title="More">LLISTATS<i class="fa fa-caret-down"></i>
-                </button>
+                <a href="llistats.html" class="w3-padding-large w3-button h4" title="More">LLISTATS<i
+                        class="fa fa-caret-down"></i>
+                </a>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
                     <a href="xapes.html" class="w3-bar-item w3-button">Xapes</a>
                     <a href="medalles.html" class="w3-bar-item w3-button">Medalles</a>
@@ -36,40 +37,68 @@
     <a href="contacte.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACTE</a>
     <a href="quisom.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">QUI SOM?</a>
     <a href="detall.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DETALL</a>
-    <a href="xapes.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LLISTATS</a>
+    <a href="llistats.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LLISTATS</a>
 </div>
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px">
         <img src="img/logo.png" width="325" alt="">
         <hr style="color: black; background-color: black; width:100%;"/>
-        <p class="w3-justify-center">We have created a videogame website. Lorem ipsum dolor sit amet, consectetur
+        <a class="w3-bar-item w3-padding-large mb-0 h1">ARMES</a><br><br>
+        <p class="w3-justify">We have created a videogame website. Lorem ipsum dolor sit amet, consectetur
             adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
             elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis
             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <div id="noticies">
-            <div class="container">
-                <div class="row">
-                    <div class="w3-third border border-dark">
-                        <img src="img/noticia1.jpg" class="w3-margin-bottom" style="width:100%" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lectus laoreet sem congue
-                            elementum. Mauris placerat erat nec tincidunt vulputate. Nam tristique.</p>
-                    </div>
-                    <div class="w3-third border border-dark">
-                        <img src="img/noticia2.jpg" class="w3-margin-bottom" style="width:100%" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lectus laoreet sem congue
-                            elementum. Mauris placerat erat nec tincidunt vulputate. Nam tristique.</p>
-                    </div>
-                    <div class="w3-third border border-dark">
-                        <img src="img/noticia3.jpg" class="w3-margin-bottom" style="width:100%" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lectus laoreet sem congue
-                            elementum. Mauris placerat erat nec tincidunt vulputate. Nam tristique.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+            <tbody>
+            <tr>
+                <th scope="col">Nom</th>
+                <th scope="col">Medalla</th>
+                <th scope="col">Descripció</th>
+            </tr>
+            <tr>
+                <td>MP18</td>
+                <td><img src="img/mp18.webp" width="350" height="100" alt=""></td>
+                <td class="w3-justify">En distàncies curtes, armes com la M97 resulten mortals. Però si necessites
+                    alguna cosa que s'adapti
+                    bé a tota mena de rangs, la MP18 destaca com la millor opció. La seva cadència de foc no és de les
+                    millors, però la seva precisió tant en apuntat com en tret des del maluc, la fan terriblement
+                    eficient a l'hora d'escombrar d'enemics àmplies zones de terrenys o emboscades contra grups.
+                </td>
+            </tr>
+            <tr>
+                <td>BAR M1918</td>
+                <td><img src="img/barm1918.webp" width="350" height="100" alt=""></td>
+                <td class="w3-justify">Bona potència, bona cadència de foc, bona precisió i una mida de carregador
+                    respectable. Quan parlem d'una arma que funciona bé en qualsevol tipus de circumstància, tenim com a
+                    millor exemple la BAR M1918. El seu punt fort és la potència de foc, per a un enfocament del suport
+                    més agressiu, i una bona mirada.
+                </td>
+            </tr>
+            <tr>
+                <td>RUSSIAN 1895</td>
+                <td><img src="img/russian1895.webp" width="350" height="100" alt=""></td>
+                <td class="w3-justify">Insuperable a mig i llarg abast. Tan simple com això. No és el fusell més potent
+                    ni el que té més
+                    abast, però la gran superfície de la seva mira i, sobretot, la seva velocitat de recàrrega, compensa
+                    amb escreix la necessitat d'arriscar-se una mica apropant-se als objectius. Molt a prop d'aquesta
+                    opció hi ha la SMLE MKIII, per motius similars.
+                </td>
+            </tr>
+            <tr>
+                <td>SELBSTLADER M1916</td>
+                <td><img src="img/selbstladerm1916.webp" width="350" height="100" alt=""></td>
+                <td class="w3-justify">Amb la seva precisió i la seva potència, aquesta arma quasi es overpowered
+                    (sobrepoderosa). A més, és ràpida i s'adapta a tot tipus d'accions, agressives o conservadores. La
+                    seva capacitat d'encert en el blanc a mitges i llargues distàncies fan que gairebé sembli un rifle
+                    franctirador. I això que parlem d'una arma pensada per a una classe la finalitat de la qual no és
+                    precisament la confrontació directa.
+                </td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
@@ -80,7 +109,7 @@
 </footer>
 <script>
     function myFunction() {
-        var x = document.getElementById("panellAmagat");
+        const x = document.getElementById("panellAmagat");
         if (x.className.indexOf("w3-show") === -1) {
             x.className += " w3-show";
         } else {
